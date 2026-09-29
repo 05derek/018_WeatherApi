@@ -1,5 +1,5 @@
 // GANTI DENGAN API KEY MAPTILER ANDA
-const API_KEY = 'YOUR_MAPTILER_API_KEY'; 
+const API_KEY = 'https://api.maptiler.com/maps/streets-v4/?key=YOUR_MAPTILER_API_KEY_HERE#1.0/0.00000/0.00000YOUR_MAPTILER_API_KEY'; 
 
 async function cariLokasi() {
     const inputLokasi = document.getElementById('input-lokasi').value;
